@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+    <body>
+        <header>
+            <h1>Portfolio</h1>
+            <h3> YASH SOLANKE</h3>
+        </header>
+        <br>
+
+        <main>
+            <nav>
+                <ul>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <!-- <li><a href="#certificate">Certificates</a></li> -->
+                    <!-- <li><a href="#internship">Internship</a></li> -->
+                    <li><a href="#contact-me">Contact me</a></li>
+                    <li><a href="admin.html" onclick="show_admin_login()">Admin Login</a></li>
+                    <li><button onclick="toggleTheme()" class="transparent-button">🌙 Theme</button></li>
+                </ul>
+            </nav>
+            <br>
+
+            <section class="style01" id="education">
+                <!-- <h2 id="animateEdu">Education</h2> -->
+                <h3>Education</h3>
+                <p>B.E</p>
+                <p>2023</p>
+                <P>(Currently in 3rd year)</P>
+            </section>
+ <br>
+            <section class="style01" id="skills"> 
+                <h3>Skills</h3>
+                <p>HTML</p> 
+                <p>CSS</p> 
+                <P>Java Script</P>
+                <p>IOT</p>
+                <P>Basic SQL</P>
+                <p>Basic knowledge on Machine learning</p>
+            </section>
+ <br>
+            <section class="style01" id="project">
+                <h3>College projects</h3>
+                <ul>
+                    <li>Portfolio(website)</li>
+                    <li>Mini Project(Cards) on js</li>
+                    <li>Digital library using SQL</li>
+                    <li>Model that categorise messages </li>
+                </ul>
+                <h3>Personal Projects</h3>
+                    <ul>
+                        <li>IOT(using arduino uno) based gas detection device</li>
+                        <li>IOT(using esp 32)remote automated lights</li>
+                        
+                    </ul>
+            </section>
+             <br>
+<!--             
+
+            <section class="style01" id="certificate">
+                <h3>Certificates</h3>
+                <p>...</p>
+                <p>...</p>
+                <p>...</p>
+            </section> -->
+            
+
+ <br>
+            <section class="style01" id="contact-me">
+                <h2>Contact me</h2>
+                <form id = "contact-form" onsubmit="saveMessage(event)">
+                    <div>
+                    <label> Name: </label>
+                    <input type="text" placeholder="Enter Name" id="input_name">
+                    </div>
+
+                    <br>
+                    
+                    <div>
+                    <label> Email: </label>
+                    <input type="text"  placeholder="Enter email" id="input_email">
+                    </div>
+                    
+                    <br>
+                    
+                    <div>
+                    <label> Message: </label>
+                    <textarea placeholder="please enter your message" id="input_msg"></textarea>
+                    </div>
+                    <p id="confirm-response"></p>
+                    <button type="submit"> Send</button>
+                    
+                </form>
+            </section>
+ <br>
+            <section class="style1" id="admin-login">
+                <h2>Admin Login</h2>
+                <form id='admin-form'>
+                    <div>
+                    <label> Username: </label>
+                    <input type="text" placeholder="enter username..." id='input_user'>
+                    </div>
+                    
+                    <div>
+                    <label> Password: </label>
+                    <input type="password" placeholder="enter password..." id='input_pass'>
+                    </div>
+                
+                    <button type="submit"> Login </button>
+                    
+                </form>
+            </section>
+            
+          <br>   
+            <section class="style1" id="user-responses">
+                e<h2>User Responses</h2>
+            
+                <div id="user-messages"> </div>
+            </section>
+
+        </main>
+
+
+        <script src="login.js"></script>
+
+    </body>
+</html>

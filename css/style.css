@@ -1,0 +1,351 @@
+
+
+/* 
+#skills.style01{
+  color: #ae1fb8;
+} */
+
+
+
+
+
+body .login {
+    
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("../images/bg.jpg");
+    background-size: center;
+    background-position: center;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    gap: 30px; 
+    flex-wrap: nowrap;
+    border: 1px solid #cccccc17;
+    padding: 30px;
+    background: rgba(245, 242, 242, 0.329);
+    border-radius: 12px;
+    backdrop-filter: blur(4px);
+}
+
+
+.login-form {
+    flex: 1;
+}
+
+.login-animation {
+    flex: 1;
+    text-align: center;
+}
+
+.login-form h1{
+        font-family:unset;
+}
+.login-form {
+    text-align: center;
+}
+.login-animation img {
+    width: 180px;      
+    height: auto;
+}
+
+input, button .login{
+    display: block;
+    margin: 10px auto;
+    padding: 8px;
+    width: 200px;
+}
+
+.error {
+    color: rgb(240, 88, 88);
+}
+
+
+@media (max-width: 1290px) {
+
+    .login {
+        flex-direction: column;   
+        gap: 20px;
+        padding: 20px;
+        align-items: center;
+        /* display: flex;
+        justify-content: center; */
+
+    }
+
+    .login-animation img {
+        width: 140px;   
+    }
+
+    input, button .login{
+        width: auto;
+        max-width: 280px;
+        border-radius: 12px;
+        margin:none;
+
+        display: block;
+        padding: 8px;
+    
+    }
+}
+@media (max-width: 480px) {
+    .login-animation {
+        display: none;
+    }
+}
+
+/* #animateEdu {
+  animation: slideLeft 1.5s ease-out;
+} */
+/* 
+#animateEdu:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+  color: #28f7e7;
+} */
+
+
+
+body {
+    background-color: #ebf1ff;
+    text-decoration-color: #ae1fb8;
+    padding:5px;
+}
+
+
+header {
+  background-color: #b8d9ff;
+  /*background: url(https://images.unsplash.com/photo-1762532985216-6561bb733c56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY0MjA4MTR8&ixlib=rb-4.1.0&q=80&w=400);*/
+  /* border-top: 10px solid #b8d9ff;
+  border-left: 10px solid #b8d9ff;
+  border-right: 10px solid #b8d9ff; */
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  animation: slideLeft 4s ease-out;
+  border-radius: 12px;
+}
+
+
+nav {
+  color: #d9e3fa;
+  background-color: #1c4976;
+  padding: 10px;
+  border-radius: 12px;
+  animation: slideLeft 4s ease-out;
+  /* display: flex;
+   gap: 30px;  
+  flex-wrap: nowrap; */
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  cursor: pointer;
+  
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  margin: 15px;
+  
+}
+
+nav ul li a:hover {
+  color: #28d1f7;
+  font-size: 18px;
+  border: 2px;
+  border-style: solid;
+  border-color: #b8d9ff;
+  border-radius: 10px;
+  padding: 2px;
+}
+#skills.style01{
+  border-radius: 10px;
+  background-color:rgb(249, 252, 255);
+  border-left: 50px;
+  border-top: 10px  ;
+  border-left: 10px  ;
+  border-right: 10px  ;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  /* padding-left: -30px; */
+} 
+#education.style01{
+  border-radius: 10px;
+  background-color:rgb(249, 252, 255);
+  border-left: 50px;
+  border-top: 10px  ;
+  border-left: 10px  ;
+  border-right: 10px  ;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+#project.style01{ 
+  border-radius: 10px;
+  background-color:rgb(249, 252, 255);
+  border-left: 50px;
+  border-top: 10px  ;
+  border-left: 10px  ;
+  border-right: 10px  ;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+#project ul {
+  list-style-type: none;
+  padding-left: 0;
+}#education.style01{
+  border-radius: 10px;
+  background-color:rgb(249, 252, 255);
+  border-left: 50px;
+  border-top: 10px  ;
+  border-left: 10px  ;
+  border-right: 10px  ;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}#certificate.style01{
+  border-radius: 10px;
+  background-color:rgb(249, 252, 255);
+  border-left: 50px;
+  border-top: 10px  ;
+  border-left: 10px  ;
+  border-right: 10px  ;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}#contact-me.style01{
+  border-radius: 10px;
+  background-color:rgb(249, 252, 255);
+  border-left: 50px;
+  border-top: 10px  ;
+  border-left: 10px  ;
+  border-right: 10px  ;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+#admin-login {
+  display: none;
+}
+
+#user-responses {
+  display: none;
+}
+
+
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  
+  50% {
+    transform: translateY(-20px)
+  }
+  
+}
+
+
+@keyframes slideLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+:root {
+    --bg-color: #ebf1ff;
+    --bg2-color:#b8d9ff;
+    --bg3-color:#f9fcff;
+    --bg4-color:#1c4976;
+
+
+    --text-color: #000000;
+    --card-bg: #ebf1ff;
+}
+
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+header{
+  boarder-color:  var(--bg2-color);
+  background-color: var(--bg2-color);
+}
+.login {
+    background: var(--card-bg);
+}
+#skills.style01{
+  background-color: var(--bg3-color);
+}
+#project.style01{
+    background-color: var(--bg3-color);
+}
+#contact-me.style01{
+    background-color: var(--bg3-color);
+}
+#education.style01{
+  background-color: var(--bg3-color);
+}
+nav{
+    background-color: var(--bg4-color);
+
+}  
+
+
+[data-theme="dark"] {
+    --bg-color: #373737;
+    --bg2-color:#1f1f1f;
+    --bg3-color:#2f2f2f;
+    --bg4-color:#181818;
+
+
+    --text-color: #ffffff;
+    --card-bg: rgba(30, 30, 30, 0.6);
+    
+}
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+header{
+  boarder-color:  var(--bg2-color);
+  background-color: var(--bg2-color);
+}
+.login {
+    background: var(--card-bg);
+}
+#skills.style01{
+  background-color: var(--bg3-color);
+}
+#project.style01{
+    background-color: var(--bg3-color);
+}
+#contact-me.style01{
+    background-color: var(--bg3-color);
+}
+#education.style01{
+  background-color: var(--bg3-color);
+}
+nav{
+    background-color: var(--bg4-color);
+
+}  
